@@ -1,3 +1,12 @@
+/*
+
+  y = b1 x + b0
+
+  b1 = sum((xi-mean(x)) * (yi-mean(y))) / sum((xi – mean(x))^2)
+  b0 = mean(y) – B1 * mean(x)
+
+*/
+
 #include <stdio.h>
 
 int main() {
